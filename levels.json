@@ -1,0 +1,42 @@
+[
+    {
+        "image": "images/level1.jpeg",
+        "target": { "x": 525, "y": 505, "radius": 55 },
+        "hint": "Oleaca pe munte"
+    },
+    {
+        "image": "images/level2.jpeg",
+        "target": { "x": 605, "y": 700, "radius": 60 },
+        "hint": "O cerseala corecta"
+    },
+
+     {
+        "image": "images/level3.jpeg",
+        "target": { "x": 740, "y": 933, "radius": 60 },
+        "hint": "Mai aproape decat crezi"
+    },
+
+     {
+        "image": "images/level4.jpeg",
+        "target": { "x": 456, "y": 614, "radius": 20 },
+        "hint": "Godzilla"
+    },
+
+     {
+        "image": "images/level5.jpeg",
+        "target": { "x": 841, "y": 1347, "radius": 10 },
+        "hint": "Asta e greu"
+    },
+
+    {
+        "image": "images/level6.jpeg",
+        "target": { "x": 720, "y": 49, "radius": 7 },
+        "hint": "La asta-ti trebe ochelari"
+    },
+
+    {
+        "image": "images/level7.jpeg",
+        "target": { "x": 704, "y": 498, "radius": 15 },
+        "hint": "Da-te ma jos"
+    }
+]

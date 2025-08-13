@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaseste Andreiul</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating particles -->
+    <div class="particle" style="width: 8px; height: 8px; top: 10%; left: 20%;"></div>
+    <div class="particle" style="width: 6px; height: 6px; top: 20%; left: 80%;"></div>
+    <div class="particle" style="width: 10px; height: 10px; top: 60%; left: 10%;"></div>
+    <div class="particle" style="width: 4px; height: 4px; top: 80%; left: 70%;"></div>
+    <div class="particle" style="width: 12px; height: 12px; top: 30%; left: 90%;"></div>
+
+    <div class="container">
+        <!-- Menu Screen -->
+        <div id="menu-screen">
+            <h1 class="game-title">🔍 Gaseste Andreiul</h1>
+            <p class="game-subtitle">Noroc cu Ionut, ca el mi-a dat ideea</p>
+            <button class="start-button" onclick="startGame()">
+                ✨ Start
+            </button>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="game-screen">
+            <div class="level-info">
+                <div class="level-counter" id="level-counter">Level 1</div>
+                <div class="hint" id="hint">Loading...</div>
+                <div class="instructions">Tre' sa-l gasesti pe Andrei</div>
+            </div>
+
+            <div id="game-container">
+                <canvas id="gameCanvas"></canvas>
+            </div>
+
+            <div id="message"></div>
+
+            <div class="controls">
+                <button id="next-level" class="game-button" style="display:none;">
+                    🎯 Next Level
+                </button>
+                <button onclick="showMenu()" class="game-button">
+                    🏠 Meniu
+                </button>
+                <button onclick="restartLevel()" class="game-button">
+                    🔄 Restart Level
+                </button>
+                <!-- <button id="dev-mode" onclick="toggleDevMode()" class="game-button">
+                    🔧 Dev Mode
+                </button> -->
+            </div>
+            
+            <div id="coordinates" style="margin-top: 15px; font-family: monospace; background: rgba(0,0,0,0.7); padding: 10px; border-radius: 10px; display: none;">
+                <div>Click on the image to get coordinates!</div>
+                <div id="coord-display">X: -, Y: -</div>
+                <div style="margin-top: 10px; font-size: 0.9em; opacity: 0.8;">
+                    💡 Tip: Click on your target object, then copy these coordinates to your levels.json file
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <script src="script.js"></script>  
+</body>
+</html>
