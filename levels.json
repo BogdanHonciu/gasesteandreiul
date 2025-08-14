@@ -2,41 +2,99 @@
     {
         "image": "images/level1.jpeg",
         "target": { "x": 525, "y": 505, "radius": 55 },
-        "hint": "Oleaca pe munte"
+        "hint": "Oleaca pe munte",
+        "instructions": "Gaseste Andreiul"
     },
     {
         "image": "images/level2.jpeg",
         "target": { "x": 605, "y": 700, "radius": 60 },
-        "hint": "O cerseala corecta"
+        "hint": "O cerseala corecta",
+        "instructions": "Gaseste Andreiul"
     },
 
      {
         "image": "images/level3.jpeg",
         "target": { "x": 740, "y": 933, "radius": 60 },
-        "hint": "Mai aproape decat crezi"
+        "hint": "Mai aproape decat crezi",
+        "instructions": "Gaseste Andreiul"
     },
 
      {
         "image": "images/level4.jpeg",
         "target": { "x": 456, "y": 614, "radius": 20 },
-        "hint": "Godzilla"
+        "hint": "Godzilla",
+        "instructions": "Gaseste Andreiul"
     },
 
      {
         "image": "images/level5.jpeg",
         "target": { "x": 841, "y": 1347, "radius": 10 },
-        "hint": "Asta e greu"
+        "hint": "Asta e greu",
+        "instructions": "Gaseste Andreiul"
     },
 
     {
         "image": "images/level6.jpeg",
         "target": { "x": 720, "y": 49, "radius": 7 },
-        "hint": "La asta-ti trebe ochelari"
+        "hint": "La asta-ti trebe ochelari",
+        "instructions": "Gaseste Andreiul"
     },
 
     {
         "image": "images/level7.jpeg",
         "target": { "x": 704, "y": 498, "radius": 15 },
-        "hint": "Da-te ma jos"
+        "hint": "Da-te ma jos",
+        "instructions": "Gaseste Andreiul"
+    },
+
+     {
+        "image": "images/level8.png",
+        "target": { "x": 42, "y": 1575, "radius": 40 },
+        "hint": "Un ceaun corect",
+        "instructions": "Gaseste Simona???"
+    },
+
+    {
+        "image": "images/level9.png",
+        "target": { "x": 990, "y": 679, "radius": 15 },
+        "hint": "Ma duc la munte iar, ma duc la munteeee",
+        "instructions": "Gaseste Simona!!"
+    },
+
+    {
+        "image": "images/level10.png",
+        "target": { "x": 751, "y": 832, "radius": 10 },
+        "hint": "Nush ce sa mai scriu",
+        "instructions": "Gaseste Simona"
+    },
+
+    {
+        "image": "images/level11.png",
+        "target": { "x": 1721, "y": 2139, "radius": 50 },
+        "hint": "Lipia aia top",
+        "instructions": "Gaseste Absolventu'"
+    },
+
+    {
+        "image": "images/level12.png",
+        "target": { "x": 47, "y": 351, "radius": 15 },
+        "hint": "Shaorma cu de toate?",
+        "instructions": "Gaseste Absolventu'"
+    },
+
+    {
+        "image": "images/level13.png",
+        "target": { "x": 1275, "y": 488, "radius": 50 },
+        "hint": "Gorila",
+        "instructions": "Il gasesti tu daca e"
+    },
+
+    {
+        "image": "images/level14.png",
+        "target": { "x": 1456, "y": 1411, "radius": 30 },
+        "hint": "La un suc",
+        "instructions": "Daca ai ajuns aici inseamna ca l-ai gasit o data"
     }
+
+
 ]

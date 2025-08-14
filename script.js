@@ -10,6 +10,7 @@ let devMode = false;
 let nextButton = document.getElementById("next-level");
 let message = document.getElementById("message");
 let hint = document.getElementById("hint");
+let instructions = document.getElementById("instructions");
 let levelCounter = document.getElementById("level-counter");
 let menuScreen = document.getElementById("menu-screen");
 let gameScreen = document.getElementById("game-screen");
@@ -54,7 +55,8 @@ fetch("levels.json")
             {
                 "image": "data:image/svg+xml,%3Csvg width='400' height='300' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='400' height='300' fill='%23f0f0f0'/%3E%3Ccircle cx='150' cy='100' r='20' fill='%23ff4444'/%3E%3Ctext x='200' y='250' text-anchor='middle' font-size='16' fill='%23333'%3EDemo Level - Find the red circle!%3C/text%3E%3C/svg%3E",
                 "target": { "x": 150, "y": 100, "radius": 25 },
-                "hint": "Find the red circle"
+                "hint": "Find the red circle",
+                "instructions": "Am scris in hint, ce n-ai inteles?"
             }
         ];
     });
@@ -93,6 +95,7 @@ function loadLevel(levelIndex) {
 
     levelCounter.textContent = `Level ${currentLevel + 1}`;
     hint.textContent = level.hint;
+    instructions.textContent = level.instructions;
     message.textContent = "";
     message.className = "";
     nextButton.style.display = "none";
@@ -177,7 +180,7 @@ canvas.addEventListener("click", function (event) {
     let distance = Math.sqrt(dx * dx + dy * dy);
 
     if (distance <= target.radius) {
-        message.textContent = "🎉 Forta mondiala, l-ai gasit!";
+        message.textContent = "🎉 Forta mondiala, ai gasit ce trebuia!";
         message.className = "success";
         nextButton.style.display = "inline-block";
         // Complete the level
