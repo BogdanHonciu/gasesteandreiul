@@ -260,7 +260,7 @@ function updateProgressDisplay() {
     const percentage = (completedLevels.length / levels.length) * 100;
     
     progressBar.style.width = percentage + '%';
-    progressText.textContent = `${completedLevels.length}/${levels.length} Levels Completed`;
+    progressText.textContent = `${completedLevels.length}/${levels.length} Nivele Completate`;
 }
 
 // Generate level selection grid
